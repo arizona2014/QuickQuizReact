@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 
 class Question extends Component {	
+    onChange(e) {
+       //Your change code here!!
+    }
 	render(){
 		const {question} = this.props;
 		return(
