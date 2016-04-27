@@ -5,7 +5,6 @@ import QuestionList from './quiz/QuestionList.jsx';
 class App extends Component {
 	constructor(props){				
 		super(props);
-		this.onChange = this.onChange.bind(this);
 		this.state = {
 			questions:[
 				{
