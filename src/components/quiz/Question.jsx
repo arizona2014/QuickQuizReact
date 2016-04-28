@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 class Question extends Component {	
     onChange(e) {
-       //Your change code here!!
+       console.log(e);
     }
 	render(){
 		const {question} = this.props;
