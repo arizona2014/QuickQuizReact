@@ -8,8 +8,9 @@ class Results extends Component {
 			var message = 'Awsome Job';
 		} elseif(percent < 80 && percent > 60) {
 			var message = 'You did OK';
-		}
-		
+		} else {
+			var message = 'You did horrible';
+		}		
 		return(
 			<div className="well">
 				<h4>You got {this.props.score} out of {this.props.questions.length} Correct</h4>
