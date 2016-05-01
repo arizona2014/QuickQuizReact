@@ -111,6 +111,7 @@ class App extends Component {
 			<div>			
 				{scorebox}
 				<QuestionList {...this.state} setCurrent={this.setCurrent.bind(this)} setScore={this.setScore.bind(this)} />
+				{results}
 			</div>
 		)
 	}

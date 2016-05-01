@@ -6,7 +6,7 @@ class Results extends Component {
 		var percent = (this.props.score / this.props.questions.length *100);
 		if(percent>80){
 			var message = 'Awsome Job';
-		} elseif(percent < 80 && percent > 60) {
+		}else if(percent < 80 && percent > 60) {
 			var message = 'You did OK';
 		} else {
 			var message = 'You did horrible';
